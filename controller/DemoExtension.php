@@ -18,7 +18,7 @@
  * Copyright (c) 2024 (original work) Open Assessment Technologies SA;
  */
 
-namespace suhailhusainshaan\taoExample\controller;
+namespace samikshasamy\demoExtension\controller;
 
 /**
  * Sample controller

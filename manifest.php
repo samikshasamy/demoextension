@@ -27,23 +27,23 @@ return array(
     'description' => 'Test extension in menu bar',
     'license' => 'GPL-2.0',
     'author' => 'Open Assessment Technologies SA',
-    'managementRole' => 'http://www.tao.lu/Ontologies/generis.rdf#taoExampleManager',
+    'managementRole' => 'http://www.tao.lu/Ontologies/generis.rdf#demoExtensionManager',
     'acl' => array(
-        array('grant', 'http://www.tao.lu/Ontologies/generis.rdf#taoExampleManager', array('ext'=>'taoExample')),
+        array('grant', 'http://www.tao.lu/Ontologies/generis.rdf#demoExtensionManager', array('ext'=>'demoExtension')),
     ),
     'install' => array(
     ),
     'uninstall' => array(
     ),
     'routes' => array(
-        '/taoExample' => 'suhailhusainshaan\\taoExample\\controller'
+        '/demoExtension' => 'samikshasamy\\demoExtension\\controller'
     ),    
     'constants' => array(
         # views directory
         "DIR_VIEWS" => dirname(__FILE__).DIRECTORY_SEPARATOR."views".DIRECTORY_SEPARATOR,
         
         #BASE URL (usually the domain root)
-        'BASE_URL' => ROOT_URL.'taoExample/',
+        'BASE_URL' => ROOT_URL.'demoExtension/',
     ),
     'extra' => array(
         'structures' => dirname(__FILE__).DIRECTORY_SEPARATOR.'controller'.DIRECTORY_SEPARATOR.'structures.xml',

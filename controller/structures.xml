@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE structures SYSTEM "../doc/structures.dtd">
 <structures>
-	<structure id="taoExample_main" name="taoExample" level="15" group="main">
+	<structure id="demoExtension_main" name="taoExample" level="15" group="main">
 		<description />
 		<sections>
 			
-			<section id="taoExample_main" name="taoExample" url="/taoExample/TaoExample/index" />
-			<section id="taoExample_other" name="Template" url="/taoExample/TaoExample/templateExample" />
+			<section id="demoExtension_main" name="taoExample" url="/demoExtension/TaoExample/index" />
+			<section id="demoExtension_other" name="Template" url="/demoExtension/TaoExample/templateExample" />
 		</sections>
 	</structure>
 </structures>

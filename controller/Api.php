@@ -1,6 +1,6 @@
 <?php
 
-namespace suhailhusainshaan\taoExample\controller;
+namespace samikshasamy\demoExtension\controller;
 use common_exception_RestApi;
 use common_Utils;
 use oat\oatbox\service\ServiceManager;
